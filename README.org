@@ -1,1 +1,18 @@
-# tracer
+* Tracer
+Example
+#+begin_src json
+  {
+    "net.twofares/tracer": [
+      "test-script-XXX",
+      "net.twofares.tester/test-run",
+      0,
+      1585270029492,
+      {
+        "net.twofares.tester.test-run/id": "invariant no clock",
+        "net.twofares.tester.test-run/status": "not-ok",
+        "net.twofares.tester.test-run/actual": "net.twofares.tester.test-run/omitted",
+        "net.twofares.tester.test-run/expected": "net.twofares.tester.test-run/omitted"
+      }
+    ]
+  }
+#+end_src
